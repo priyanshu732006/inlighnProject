@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color:red;
+    font-family: Arial, sans-serif;
+}
+.clock-container{
+    text-align:  center;
+    border: 2px solid white;
+    padding: 1%;
+
+}
+.clock-container:hover{
+    color:greenyellow;
+  
+}
+.clock{
+    font-size: 3rem;
+letter-spacing: 2px;
+}
